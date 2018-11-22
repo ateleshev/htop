@@ -1,2 +1,5 @@
 # htop
-htop FROM scratch
+
+```
+docker run --net=host --pid=host --privileged --rm -it ateleshev/htop
+```
